@@ -34,7 +34,7 @@ class PopupAddImage extends LayerPopup {
                 <input type="text" class="${CLASS_IMAGE_URL_INPUT}" />
             </div>
             <div class="${CLASS_FILE_TYPE}">
-                <label for="">${i18n.get('Select image file')}</label>
+                <label for="">${i18n.get('Select image file')} (only jpg, png, gif are acceptable.)</label>
                 <input type="file" class="${CLASS_IMAGE_FILE_INPUT}" accept="image/*" />
             </div>
             <label for="url">${i18n.get('Description')}</label>
